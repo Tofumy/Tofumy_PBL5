@@ -16,6 +16,18 @@ Installed the mysql server using the below code:
 
 `sudo apt mysql_server`
 
+![screenshot](https://github.com/Tofumy/Tofumy-PBL5/blob/main/hj.PNG)
+
+`sudo mysql_secure_installation`
+
+![screenshot](https://github.com/Tofumy/Tofumy-PBL5/blob/main/hj.PNG)
+
+Then used the below to confirm mysql has been installed well on the server:
+
+`sudo mysql`
+
+![screenshot](https://github.com/Tofumy/Tofumy-PBL5/blob/main/hj.PNG)
+
 
 
 On mysql client Linux Server install MySQL Client software
