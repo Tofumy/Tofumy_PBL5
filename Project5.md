@@ -34,4 +34,4 @@ On mysql client Linux Server install MySQL Client software
 
 `sudo apt install mysql-client`
 
-![screenshot](https://github.com/Tofumy/Tofumy-PBL5/blob/main/install-mysqlserver.png)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL5/blob/main/install-mysqlserveir.png)
