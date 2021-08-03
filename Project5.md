@@ -66,7 +66,6 @@ We then changed the binding address in the config file from ext ‘127.0.0.1’ 
 
 
 
-
 From the EC2 instance where we have the mysql client installed we then try to connect to the MySQL server using the below:
 
 `mysql -u db-user -h 172.31.14.6 -p`
