@@ -38,7 +38,7 @@ On mysql client Linux Server install MySQL Client software
 
 Created an inbound rule in the MySQL Server EC2 instance to allow only the Private IP address of the MySQL client to connect
 
-![screenshot](https://github.com/Tofumy/Tofumy_PBL5/blob/main/inboundrule.png)
+![screenshot](https://github.com/Tofumy/Tofumy_PBL5/blob/main/inboundrule.PNG)
 
 
 On the EC2 instance where we have MySQL server installed, we created a DB user and a DATABASE and then granted full permission for the user on the DB
@@ -53,7 +53,7 @@ GRANT ALL ON Test_DB2.* TO 'db-user'@'%' WITH GRANT OPTION;
 
 ```
 
-![screenshot](https://github.com/Tofumy/Tofumy_PBL5/blob/main/mysql-creation.png)
+![screenshot](https://github.com/Tofumy/Tofumy_PBL5/blob/main/mysql-creation.PNG)
 
 
 We then configured MySQL server to allow connections from remote hosts:
@@ -62,7 +62,7 @@ We then configured MySQL server to allow connections from remote hosts:
 
 We then changed the binding address in the config file from ext ‘127.0.0.1’ to ‘0.0.0.0’ ext
 
-![screenshot](https://github.com/Tofumy/Tofumy_PBL5/blob/main/binding-change.png)
+![screenshot](https://github.com/Tofumy/Tofumy_PBL5/blob/main/binding-change.PNG)
 
 
 
@@ -70,10 +70,10 @@ From the EC2 instance where we have the mysql client installed we then try to co
 
 `mysql -u db-user -h 172.31.14.6 -p`
 
-![screenshot](https://github.com/Tofumy/Tofumy_PBL5/blob/main/login-success.png)
+![screenshot](https://github.com/Tofumy/Tofumy_PBL5/blob/main/login-success.PNG)
 
 We then ran to confirm we are seeing the DATABASE:
 
 `SHOW DATABASES;`
 
-![screenshot](https://github.com/Tofumy/Tofumy_PBL5/blob/main/show-db.png)
+![screenshot](https://github.com/Tofumy/Tofumy_PBL5/blob/main/show-db.PNG)
